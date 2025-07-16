@@ -1,0 +1,26 @@
+# Phishing URL Detector Requirements
+# 
+# Currently, this project uses only Python standard library modules.
+# This file is provided for future extensibility when additional
+# dependencies might be added.
+
+# Core Python modules used (no installation required):
+# - re (regular expressions)
+# - json (JSON handling)
+# - socket (network operations)
+# - ssl (SSL certificate validation)
+# - urllib.parse (URL parsing)
+# - datetime (timestamp generation)
+# - difflib (string similarity comparison)
+# - unittest (testing framework)
+
+# Future potential dependencies:
+# requests>=2.25.0          # For HTTP requests and better SSL handling
+# validators>=0.18.0        # For URL validation
+# tldextract>=3.1.0         # For better domain parsing
+# dnspython>=2.1.0          # For DNS lookups
+# python-whois>=0.7.0       # For domain registration info
+# beautifulsoup4>=4.9.0     # For webpage content analysis
+# selenium>=3.141.0         # For dynamic content analysis
+# numpy>=1.20.0             # For advanced statistical analysis
+# scikit-learn>=0.24.0      # For machine learning-based detection
